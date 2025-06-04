@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Python Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Python Quiz App</h1>
+
+    <!-- Start screen with dropdown -->
+    <div id="start-screen" class="start-screen">
+      <label for="questionCount">Select number of questions:</label>
+      <select id="questionCount">
+        <option value="5" selected>5</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+      </select>
+      <button id="startBtn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz container -->
+    <div id="quiz-container" class="quiz-container hide">
+      <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+      </div>
+
+      <div id="question-container">
+        <div id="question">Question Text</div>
+        <div id="answer-buttons" class="btn-grid"></div>
+      </div>
+
+      <div id="timer" class="timer">10</div>
+      <button id="nextBtn" class="next-btn hide">Next</button>
+    </div>
+
+    <!-- Result screen -->
+    <div id="result-container" class="result-container hide">
+      <h2>Your Score: <span id="score"></span></h2>
+      <button id="restartBtn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
