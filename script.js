@@ -195,6 +195,8 @@ const progressBar = document.getElementById("progress-bar");
 const resultContainer = document.getElementById("result-container");
 const scoreElement = document.getElementById("score");
 const restartBtn = document.getElementById("restartBtn");
+const darkToggle = document.getElementById("darkModeToggle");
+
 
 let shuffledQuestions = [];
 let currentQuestionIndex = 0;
@@ -342,3 +344,9 @@ function showResult() {
   scoreElement.innerText = `You scored ${score} out of ${shuffledQuestions.length}`;
   progressBar.style.width = "100%";
 }
+
+// Dark Mode Toggle
+darkToggle.addEventListener("change", () => {
+  document.body.classList.toggle("dark", darkToggle.checked);
+});
+
