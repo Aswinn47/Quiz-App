@@ -16,6 +16,14 @@ body {
   margin-bottom: 20px;
 }
 
+label.dark-toggle {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
 #question {
   font-size: 1.3rem;
   margin-bottom: 15px;
@@ -99,3 +107,23 @@ button:disabled {
   background-color: #f44336 !important;
   color: white;
 }
+
+/* Dark mode styles */
+body.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark button {
+  background-color: #333;
+  color: white;
+}
+
+body.dark #progress-bar-container {
+  background-color: #555;
+}
+
+body.dark #progress-bar {
+  background-color: #76ff03;
+}
+
