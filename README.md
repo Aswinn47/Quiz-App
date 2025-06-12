@@ -9,5 +9,6 @@ It features:
 
 📊 Progress bar to show quiz progress
 
+🌙 Dark mode toggle for a better visual experience
 
 Perfect for beginners to test their Python knowledge in a fun and engaging way!
