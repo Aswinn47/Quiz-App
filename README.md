@@ -3,7 +3,7 @@ It features:
 
 🔀 Randomized multiple-choice Python questions
 
-⏱ 10-second timer per question with a flashing warning at 3 seconds
+⏱ 15-second timer per question with a flashing warning at 3 seconds
 
 🔊 Sounds for correct, wrong, and timeout events
 
