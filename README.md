@@ -1,4 +1,4 @@
-#Quiz App
+# Quiz App
 
 This is a simple, interactive Python quiz web app built using HTML, CSS, and JavaScript.
 It features:
