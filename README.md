@@ -16,4 +16,3 @@ It features:
 Perfect for beginners to test their Python knowledge in a fun and engaging way!
 
 
-![Top language](https://img.shields.io/github/languages/top/aswinn47/Quiz-App)
